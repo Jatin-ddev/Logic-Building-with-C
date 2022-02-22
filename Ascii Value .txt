@@ -1,0 +1,38 @@
+
+
+#include<stdio.h>
+
+
+int main()
+{
+
+char c;
+printf("Enter a Character : ");
+scanf("%c",&c);
+
+printf("The Ascii Value Is %d",c);
+
+
+return 0;
+}
+
+// PROGRAM IN C++
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+
+
+char c;
+cout<<"Enter A Character ";
+cin>>c;
+
+cout<<"The Ascii Value Is "<<(int)c;
+
+
+
+return 0;
+}

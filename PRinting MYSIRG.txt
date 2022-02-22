@@ -1,0 +1,36 @@
+
+// Program In C
+
+#include<stdio.h>
+
+
+int main()
+{
+
+
+
+printf("MySirG");
+
+return 0;
+}
+
+// Program In C++
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+
+
+
+cout<<"MySirG";
+
+
+
+
+
+
+return 0;
+}
