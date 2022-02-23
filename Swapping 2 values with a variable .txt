@@ -1,0 +1,100 @@
+// With A Variable 
+
+#include<stdio.h>
+
+int main()
+{
+
+int num1,num2,swap=0;
+
+
+
+printf("Enter The Numbers : ");
+scanf("%d %d",&num1,&num2);
+
+swap=num1;
+num1=num2;
+num2=swap;
+
+
+
+printf("After Swapping : %d %d ",num1,num2);
+
+return 0;
+}
+
+// Program In C++
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+
+int num1 , num2 , swap=0;
+
+cout<<"Enter The Numbers ";
+cin>>num1>>num2;
+
+
+swap=num1;
+num1=num2;
+num2=swap;
+
+cout<<"After Swapping : "<<num1<<" "<<num2;
+
+return 0;
+}
+
+
+
+Without a Variable 
+
+: No need of 3 var , by 2 var can be built 
+
+
+a=a+b;
+b=a-b;
+a=a-b;
+
+a=a*b;
+b=a/b;
+a=a/b;
+
+
+
+BITWISE OPERATORS
+
+^ XOR Type Of Bitwise OP 
+
+0^0 = 0
+
+1^1 = 0
+
+0^1 = 1
+1^0=1
+
+
+01010 = 10
+10100 = 20
+
+10^20
+
+01010
+10100
+------
+11110 =30 
+
+20^30 = 
+
+11110
+10100
+------
+01010 =10
+
+30 ^ 10 =20 
+
+a=a^b
+b=a^b
+a=a^b
