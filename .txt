@@ -1,0 +1,113 @@
+// Wap to Print A Program English Alphabets In Lower Case
+
+#include <stdio.h>
+
+int main()
+{
+    char ch;
+
+    printf("Alphabets from a - z are: \n");
+    for(ch='a'; ch<='z'; ch++)
+    {
+        printf("%c ", ch);
+    }
+
+    return 0;
+}
+
+// Infinite input 
+
+#include <stdio.h>
+
+int main()
+{
+    int i ,num ,end , sum=0;
+    
+    for(i=1;i<=end;i++){
+    scanf("%d",&num);
+    }
+    
+
+    return 0;
+}
+
+
+
+
+//Wap To Calculate Sum Of First Of N Natural Numbers
+
+#include <stdio.h>
+
+int main()
+{
+    int i,s=0,n;
+
+	printf("Enter A Number ");
+	scanf("%d",&n);
+
+	for(i=1;i<=n;i++)
+	s=s+i;
+    printf("Sum Is %d",s);
+
+
+    return 0;
+}
+
+
+Wap To Print First N Terms Of The Series!
+
+1 , 3, 6 , 10 , 15 , 21 , 28 , 36 ..........
+
+
+// 1 , 3 ,6 , 10 , 15 .................
+
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    
+    int i , end , sum=0;
+    
+    cout<<"Enter The End Range : ";
+    cin>>end;
+    
+    for(i=1;i<=end;i++)
+    {
+        sum=sum+i;
+        cout<<" "<<sum;
+       
+    }
+    
+    
+    return 0;
+}
+
+
+//2 ,5 ,10 , 17 , 26 , 37 .................
+
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    
+    int i , end , sum=0;
+    
+    cout<<"Enter The End Range : ";
+    cin>>end;
+    
+    for(i=1;i<=end;i++)
+    {
+        sum=i*i+1;		 // sum=sum+i+1;
+        cout<<" "<<sum;
+       
+    }
+    
+    
+    return 0;
+}
