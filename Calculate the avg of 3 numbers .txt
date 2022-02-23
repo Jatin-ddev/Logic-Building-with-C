@@ -36,4 +36,5 @@ cout<<"The Average Is "<<avg;
 
 return 0;
 }
+//
 
