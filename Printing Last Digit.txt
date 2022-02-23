@@ -1,0 +1,43 @@
+
+
+
+// Printing Last Digit 
+
+#include<stdio.h>
+
+int main()
+{
+    int num1 , mod;
+    
+    printf("Enter A Number ");
+    scanf("%d",&num1);
+    
+    mod = num1%10;
+    
+    printf("Last Digit Is %d",mod);
+    
+    
+    return 0;
+}
+
+
+Program In C++
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+
+int num1 , mod;
+
+cout<<"Enter A Number";
+cin>>num1;
+
+cout<<"Last Digit is <<mod";
+
+
+
+return 0;
+}
