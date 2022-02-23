@@ -1,0 +1,51 @@
+main()
+{
+
+
+if(5>4)
+printf("Hello");
+printf("Welcome");
+else
+printf("Bye");
+getch();
+
+
+
+
+}
+// error: error: ‘else’ without a previous ‘if’
+
+main()
+{
+
+if(3!=2);
+printf("Hello");
+else
+printf("Bye");
+
+
+
+}
+
+// main.c:11:1: error: ‘else’ without a previous ‘if’
+// if ; its means empty block becoz printf() is wrriten outside if 
+// but accroding to rule just after if else shouls be there but here here there is a printf()
+
+
+
+main()
+{
+
+if(3!=2);
+else
+printf("Bye");
+getch();
+
+
+// Kuch nhi print hoga becoz if conition is true but its empty 
+
+
+
+
+
+}

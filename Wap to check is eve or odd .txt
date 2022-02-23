@@ -1,0 +1,51 @@
+#include<stdio.h>
+
+int main()
+{
+
+
+int num1;
+printf("Enter a Number");
+scanf("%d",&num1);
+
+if(num1%2==0)
+printf("Number is even");
+
+else 
+printf("num1 is odd");
+
+return 0;
+}
+
+// Without using % Op
+
+if (i/2*2==i)
+
+else 
+
+#include<stdio.h>
+
+int main()
+{
+
+
+int num1;
+printf("Enter a Number");
+scanf("%d",&num1);
+
+if(num1/2*2==num1)
+printf("Number is even");
+
+else 
+printf("num1 is odd");
+
+return 0;
+}
+
+
+Using Binary 
+
+
+a-(-b)
+
+Understand Question TEst Cases Dry Run 

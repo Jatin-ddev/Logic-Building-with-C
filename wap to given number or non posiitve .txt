@@ -1,0 +1,51 @@
+
+
+// Program to print +ve or non positve == 0 + -ve numbers
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    
+    int num1;
+    cin>>num1;
+    
+    if(num1>0)
+    cout<<"Number is +ve";
+    
+    if(num1<=0)
+    cout<<"Number is non positive ";
+    
+    
+    return 0;
+}
+
+
+
+// Program to print +ve or non negative 
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    
+    int num1;
+    cin>>num1;
+    
+    if(num1>0)
+    cout<<"Number is +ve";
+    
+    else
+    cout<<"Number is non positive ";
+    
+    
+    return 0;
+}
+
+
+
+
