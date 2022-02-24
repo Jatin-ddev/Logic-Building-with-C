@@ -1,0 +1,60 @@
+// Priting Sum Of N Even Numbers
+
+/* N can be modified , it can be also taken by the user means as a variable */
+
+#include<stdio.h>
+
+int
+main ()
+{
+  int i, n = 10, sum = 0;
+
+  for (i = 1; i <= n; i++)
+    {
+             if (i % 2 == 0)
+        	{
+	        sum = sum + i;
+    	    }
+    }
+  printf("%d",sum);
+  return 0;
+}
+
+
+// If You Want series print i , if you want sum , print sum and remember sum will be in last after the logic part , then the sum comes !
+
+No need of if More Optimized Solution Of Printing Sum Of Even Numbers
+
+#include<stdio.h>
+
+int
+main ()
+{
+  int i, n = 10, sum = 0;
+
+  for (i = 1; i <= n; i++)
+    {
+        sum = sum + i*2;  // You have to apply changes in i to make even or odd 
+    }
+  printf("%d",sum);
+  return 0;
+}
+
+// For Odd Number
+
+
+#include<stdio.h>
+
+int
+main ()
+{
+  int i, n = 5, sum = 0;
+
+  for (i = 1; i <= n; i++)
+    {
+        sum = sum + (i*2)-1;  // You have to apply changes in i to make even or odd 
+    }
+  printf("%d",sum);
+  return 0;
+}
+
